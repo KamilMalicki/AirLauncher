@@ -25,7 +25,7 @@ Empty RAM is wasted RAM, which is why AirLauncher ensures the system has more re
 
 ## 📸 Screenshots
 
-| Home Screen | App Drawer | Context Menu |
+| Home Screen | App Drawer | About Dialog |
 | :---: | :---: | :---: |
 | <img src="1.png" width="250"> | <img src="2.png" width="250"> | <img src="3.png" width="250"> |
 
