@@ -9,7 +9,7 @@
 
 Empty RAM is wasted RAM, which is why AirLauncher ensures the system has more resources for your favorite apps rather than wasting them on a heavy home screen interface.
 
-## ✨ Key Features
+##  Key Features
 
 * **Uncompromising Performance:** Advanced UI rendering optimization techniques minimize CPU and GPU overhead.
 * **Modern Design:** Elegant, clean interface featuring Hard Shadows and highly responsive, physics-based "Squish Effect" animations.
@@ -23,7 +23,7 @@ Empty RAM is wasted RAM, which is why AirLauncher ensures the system has more re
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Home Screen | App Drawer | About Dialog |
 | :---: | :---: | :---: |
@@ -31,7 +31,7 @@ Empty RAM is wasted RAM, which is why AirLauncher ensures the system has more re
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 AirLauncher isn't just about looks; it's about smart, efficient code. The core technologies include:
 
@@ -40,14 +40,14 @@ AirLauncher isn't just about looks; it's about smart, efficient code. The core t
 * **Coroutines & Dispatchers.IO:** Asynchronous package loading off the Main Thread, guaranteeing an instant cold start.
 * **Lifecycle Events:** Smart app list refreshing (`ON_RESUME`), allowing the launcher to automatically update its state after background app installations or uninstalls.
 
-### ⚡ Key Optimizations (Pro-Tips)
+###  Key Optimizations (Pro-Tips)
 1. **GPU Offloading:** Removed `blurRadius` from font shadows (using Hard Shadows instead), drastically reducing GPU load during clock and widget rendering.
 2. **List Keys & Types:** Implemented `key` and `contentType = { "app_icon" }` parameters in the grid component. This allows Compose to flawlessly recycle off-screen elements, maintaining a solid 60 FPS while fast-scrolling through hundreds of icons.
 3. **RAM Management:** System app icons are decompressed and scaled on-the-fly to a 96x96 px format (`drawable.toBitmap()`), keeping the overall memory footprint incredibly low.
 
 ---
 
-## 🚀 Installation & Build
+##  Installation & Build
 
 To test the project locally:
 
@@ -58,12 +58,12 @@ To test the project locally:
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the **Apache 2.0 License**. See the `LICENSE` file for more information.
 
 ---
 
-*Built with a passion for minimalism and performance. If you like this project, please consider giving it a ⭐️ on GitHub!*
+*Built with a passion for minimalism and performance. If you like this project, please consider giving it a on GitHub!*
 
 By Kamil Malicki
